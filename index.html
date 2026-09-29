@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio & Resume - Azri Muzzalina</title>
+  <!-- CDN Bootstrap 5 & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+  <style>
+    .bg-pink-soft {
+      background-color: #fff0f3;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar dengan Bootstrap Pink Soft (bg-danger-subtle) -->
+  <nav class="navbar sticky-top navbar-expand-lg bg-danger-subtle border-bottom border-danger-subtle shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-danger-emphasis" href="#">Azri Muzzalina</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active text-danger-emphasis fw-semibold" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-danger-emphasis" href="#tentang">Tentang Saya</a></li>
+          <li class="nav-item"><a class="nav-link text-danger-emphasis" href="#keahlian">Keahlian & Pengalaman</a></li>
+          <li class="nav-item"><a class="nav-link text-danger-emphasis" href="#portofolio">Portofolio</a></li>
+          <li class="nav-item"><a class="nav-link text-danger-emphasis" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Home Section -->
+  <section id="home" class="text-center py-5">
+    <div class="container py-5 bg-pink-soft rounded-4 shadow-sm border border-danger-subtle">
+      <img src="img/a.jpg.jpg" alt="Azri Muzzalina" class="rounded-circle img-thumbnail mb-3 shadow"
+        style="width: 150px; height: 150px; object-fit: cover;">
+      <h1 class="display-4 fw-bold text-danger-emphasis">Azri Muzzalina</h1>
+      <p class="lead text-dark fw-medium">Pengembangan Perangkat Lunak dan Gim/ Web Developer</p>
+      <a href="#kontak" class="btn btn-danger btn-lg mt-2 shadow-sm"><i class="bi bi-envelope-fill"></i> Hubungi
+        Saya</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <!-- Tentang Saya -->
+    <section id="tentang" class="mb-5">
+      <div class="p-4 bg-pink-soft rounded-4 shadow-sm border border-danger-subtle">
+        <div class="row">
+          <div class="col-md-12 text-center mb-4">
+            <h2 class="fw-bold text-danger-emphasis">Tentang Saya</h2>
+            <hr class="w-25 mx-auto border-danger">
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center mb-3 mb-md-0">
+            <img src="img/a.jpg.jpg" class="img-fluid rounded-3 shadow" alt="Foto Profil">
+          </div>
+          <div class="col-md-8">
+            <p class="fs-5">
+              Saya adalah lulusan SMKN 2 Kota Jambi jurusan Pengembangan Perangkat Lunak dan GIM (PPLG) yang memiliki
+              minat besar dalam pengembangan web dan pemrograman.
+            </p>
+            <p>
+              Nama : Azri Muzzalina
+            </p>
+            <p>
+              Umur : 16 Tahun
+            </p>
+            <p>
+              Tanggal Lahir : 01-05-2010
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keahlian & Tabel Bootstrap -->
+    <section id="keahlian" class="mb-5">
+      <div class="p-4 bg-pink-soft rounded-4 shadow-sm border border-danger-subtle">
+        <div class="row">
+          <div class="col-md-12 text-center mb-4">
+            <h2 class="fw-bold text-danger-emphasis">Pengalaman & Keahlian</h2>
+            <hr class="w-25 mx-auto border-danger">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="mb-3 text-danger-emphasis">Keahlian Utama</h4>
+            <div class="table-responsive">
+              <table class="table table-striped table-hover bg-danger-subtle shadow-sm rounded-3">
+                <thead class="table-danger">
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Keahlian / Skill</th>
+                    <th scope="col">Tingkat Penguasaan</th>
+                    <th scope="col">Keterangan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>HTML & CSS</td>
+                    <td><span class="badge bg-primary">Menengah</span></td>
+                    <td>Membuat struktur web sederhana & penataan gaya visual dasar</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Bootstrap 5</td>
+                    <td><span class="badge bg-secondary">Dasar</span></td>
+                    <td>Menggunakan komponen Bootstrap untuk membuat tampilan responsif</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Dasar Pemrograman (PHP/JS)</td>
+                    <td><span class="badge bg-secondary">Dasar</span></td>
+                    <td>Memahami logika dasar, variabel, dan percabangan</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portofolio / Galeri Project -->
+    <section id="portofolio" class="mb-5">
+      <div class="p-4 bg-pink-soft rounded-4 shadow-sm border border-danger-subtle">
+        <div class="row">
+          <div class="col-md-12 text-center mb-4">
+            <h2 class="fw-bold text-danger-emphasis">Galeri / Portofolio Proyek</h2>
+            <hr class="w-25 mx-auto border-danger">
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm bg-danger-subtle border-danger-subtle">
+              <img src="img/b.png" class="card-img-top" alt="Proyek 1" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title text-danger-emphasis">Website Biodata Diri</h5>
+                <p class="card-text">Proyek latihan pembuatan halaman portofolio dan resume responsif menggunakan
+                  Bootstrap 5.</p>
+              </div>
+              <div class="card-footer bg-transparent border-top-0">
+                <a href="#" class="btn btn-outline-danger w-100">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm bg-danger-subtle border-danger-subtle">
+              <img src="img/c.png" class="card-img-top" alt="Proyek 2" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title text-danger-emphasis">Desain Form Interaktif</h5>
+                <p class="card-text">Formulir input data sederhana dengan pemanfaatan elemen komponen formulir
+                  Bootstrap.</p>
+              </div>
+              <div class="card-footer bg-transparent border-top-0">
+                <a href="#" class="btn btn-outline-danger w-100">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm bg-danger-subtle border-danger-subtle">
+              <img src="img/d.png" class="card-img-top" alt="Proyek 3" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title text-danger-emphasis">Landing Page Sederhana</h5>
+                <p class="card-text">Tampilan halaman utama web profil produk atau sekolah yang mengutamakan kerapian
+                  tata letak.</p>
+              </div>
+              <div class="card-footer bg-transparent border-top-0">
+                <a href="#" class="btn btn-outline-danger w-100">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak & Lokasi -->
+    <section id="kontak" class="mb-5">
+      <div class="p-4 bg-pink-soft rounded-4 shadow-sm border border-danger-subtle">
+        <div class="row">
+          <div class="col-md-12 text-center mb-4">
+            <h2 class="fw-bold text-danger-emphasis">Hubungi Saya</h2>
+            <hr class="w-25 mx-auto border-danger">
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="p-4 bg-danger-subtle rounded-3 shadow-sm border border-danger-subtle h-100 d-flex flex-column justify-content-between">
+              <form>
+                <div class="mb-3">
+                  <label for="nama" class="form-label text-danger-emphasis">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label text-danger-emphasis">Alamat Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="nama@email.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label text-danger-emphasis">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="4" placeholder="Tuliskan pesan Anda..."
+                    required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger w-100 shadow-sm mb-4">Kirim Pesan</button>
+              </form>
+
+              <!-- Informasi Email & Nomor Telepon di Bawah Tombol Kirim Pesan -->
+              <div class="pt-3 border-top border-danger-subtle">
+                <p class="text-danger-emphasis mb-2"><i class="bi bi-envelope-fill text-danger me-2"></i> azrimuzalina952@gmail.com</p>
+                <p class="text-danger-emphasis mb-0"><i class="bi bi-telephone-fill text-danger me-2"></i> 0895-2538-8552</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="p-4 bg-danger-subtle rounded-3 shadow-sm h-100 border border-danger-subtle">
+              <h5 class="mb-3 text-danger-emphasis">Lokasi / Asal</h5>
+              <div class="ratio ratio-4x3 mb-3">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.0610381952534!2d103.63059966947284!3d-1.609536499898465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e25897e7278436d%3A0x1beec4ffd6d4b351!2sStories%20Iftar!5e0!3m2!1sen!2sid!4v1790678899489!5m2!1sen!2sid"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+              </div>
+              <p class="text-danger-emphasis mb-0"><i class="bi bi-geo-alt-fill text-danger me-2"></i> RT.01, No 49.
+                bedeng rohila, wijaya pura, jambi selatan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer Bootstrap dengan Tema Pink Soft -->
+  <footer class="bg-danger-subtle text-center py-3 mt-5 border-top border-danger-subtle shadow-sm">
+    <div class="container">
+      <p class="mb-0 fw-semibold text-danger-emphasis">&copy; 2026 Azri Muzzalina.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
